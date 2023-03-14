@@ -924,9 +924,8 @@ class publicHTMLRealm(object):
 #   Program Entry Point
 # ---------------------------------------------------------------------------
 
+if __name__ == "__main__":
 
-def main():
-    global siteResource
     # Change the current directory to the location of the application
     os.chdir(os.path.dirname(os.path.realpath(sys.argv[0])))
 
@@ -978,6 +977,3 @@ def main():
 
     reactor.run()
 
-
-if __name__ == "__main__":
-    main()
