@@ -1,0 +1,21 @@
+[tool.pdm]
+
+[project]
+name = "fnemon"
+version = "1.0.0"
+description = "DVMFNE monitor web application"
+authors = [{ name = "K4YT3X", email = "i@k4yt3x.com" }]
+dependencies = [
+  "Twisted>=12.0.0",
+  "dmr-utils>=0.1.7",
+  "bitstring>=3.1.3",
+  "autobahn>=0.17.2",
+  "jinja2>=2.9.6",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "GPL2" }
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
