@@ -976,3 +976,7 @@ def main():
     reactor.listenTCP(config.WEB_SERVER_PORT, website)
 
     reactor.run()
+
+
+if __name__ == "__main__":
+    main()
