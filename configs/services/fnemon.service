@@ -5,8 +5,8 @@ After=network.target
 [Service]
 RestartSec=2s
 Type=simple
-WorkingDirectory=/usr/local/share/dvmfne/dvmfne/monitor
-ExecStart=/usr/bin/python3 /usr/local/share/dvmfne/dvmfne/monitor/fnemon.py
+WorkingDirectory=/usr/local/share/fnemon/fnemon
+ExecStart=/usr/bin/python3 /usr/local/share/fnemon/fnemon/fnemon.py
 Restart=always
 
 [Install]
