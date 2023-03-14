@@ -926,6 +926,7 @@ class publicHTMLRealm(object):
 
 
 def main():
+    global siteResource
     # Change the current directory to the location of the application
     os.chdir(os.path.dirname(os.path.realpath(sys.argv[0])))
 
